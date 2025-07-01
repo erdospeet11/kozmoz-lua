@@ -1,8 +1,16 @@
 local class = require 'middleclass'
+local Scene = require 'scene'
 
--- Baes Class Scene
-local Menu = class('Scene')
+-- Base Class Scene
+local MenuScene = class('MenuScene', Scene)
 
-function Menu:draw()
-    love.graphics.setBackgroundColor(0.1,0.1,0.9,1)
+function MenuScene:initialize()
+    
 end
+
+function MenuScene:draw()
+    love.graphics.print("Menu", 10, 10)
+    love.graphics.rectangle("fill", (love.graphics.getWidth()-400)/2, (love.graphics.getHeight()-120)/2, 400, 120)
+end
+
+return MenuScene
