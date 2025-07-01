@@ -1,7 +1,7 @@
 local class = require 'middleclass'
 local Player = require 'player'
 
-local player = Player:new(100, 100, "hello", {})
+local player = Player:new(100, "s", "hello", {})
 
 function love.load()
     

@@ -8,3 +8,13 @@
 - enemy
 - player
 - card
+
+
+Timeline for a scenario
+
+battle - combine - battle - shop - battle - boss
+
+Scenarios:
+Tutorial
+Riverton
+The Between
