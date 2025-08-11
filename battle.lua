@@ -1,7 +1,9 @@
 local class = require 'middleclass'
 local Scene = require 'scene'
 
--- Baes Class Scene
+local CombinationManager = class('CombinationManager')
+
+-- Base Class Scene
 local BattleScene = class('BattleScene', Scene)
 
 function BattleScene:initialize()

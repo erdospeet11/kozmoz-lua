@@ -17,4 +17,9 @@ function Card:draw()
     love.graphics.draw(self.image, self.x, self.y, 0, 0.35, 0.35)
 end
 
+function Card:cursorinBounds()
+    local mousePos = love.mouse.getPosition()
+    print(mousePos)
+end
+
 return Card

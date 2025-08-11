@@ -17,6 +17,7 @@ end
 
 function love.draw()
     scene_manager:draw()
+    --card:draw()
     card:draw()
 end
 
